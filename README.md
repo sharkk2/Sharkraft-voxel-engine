@@ -14,7 +14,7 @@ A minecraft-like game made with a custom voxel engine and world generation
 - Simple player movements with a world reloader and 2 player modes: flying and walking
 - Block placement and breaking system with block switching
 - Basic physics for the player with friction, acceleration, falling and jumping
-- Frustum and occulsion culling optimizations
+- Frustum and occlusion culling optimizations
   
 
 ## 🚨 Issues
