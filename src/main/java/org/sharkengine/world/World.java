@@ -66,9 +66,9 @@ public class World {
                             if (y == surfaceHeight) {
                                 block = BlockRegistry.getInstance().makeBlock("grass", worldX, y, worldZ);
                             } else if (y >= surfaceHeight - 3) {
-                                block = BlockRegistry.getInstance().makeBlock("grass", worldX, y, worldZ);
+                                block = BlockRegistry.getInstance().makeBlock("dirt", worldX, y, worldZ);
                             } else {
-                                block = BlockRegistry.getInstance().makeBlock("grass", worldX, y, worldZ);
+                                block = BlockRegistry.getInstance().makeBlock("stone", worldX, y, worldZ);
                             }
 
                             blocks.add(block);
