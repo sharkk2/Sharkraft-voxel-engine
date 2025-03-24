@@ -56,7 +56,7 @@ public class Renderer {
 
 
     private void updateWindowTitle(long window, float cameraX, float cameraY, float cameraZ, float cameraPitch, float cameraYaw) {
-        String title = "SharkVoxel engine | X: " + Math.round(cameraX) + " Y: " + Math.round(cameraY) + " Z: " + Math.round(cameraZ) + " | " + Math.round(cameraPitch) + "," + Math.round(cameraYaw) + " | Rendered cubes: " + renderedBlocks;
+        String title = "Sharkraft | X: " + Math.round(cameraX) + " Y: " + Math.round(cameraY) + " Z: " + Math.round(cameraZ) + " | " + Math.round(cameraPitch) + "," + Math.round(cameraYaw) + " | Rendered cubes: " + renderedBlocks;
         glfwSetWindowTitle(window, title);
         renderedBlocks = 0;
     }
