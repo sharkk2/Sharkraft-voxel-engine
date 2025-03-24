@@ -24,4 +24,4 @@ A minecraft-like game made with a custom voxel engine and world generation
 
 ## 📷 Screenshots
 ![game](world.png)
-![house](house.png)
+![house](build.png)
