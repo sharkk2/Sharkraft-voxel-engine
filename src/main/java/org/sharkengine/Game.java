@@ -40,7 +40,7 @@ public class Game {
             throw new IllegalStateException("Unable to initialize GLFW");
         }
 
-        this.window = glfwCreateWindow(width, height, "SharkVoxel engine", NULL, NULL);
+        this.window = glfwCreateWindow(width, height, "Sharkraft", NULL, NULL);
         if (this.window == NULL) {
             throw new RuntimeException("Failed to create the GLFW window");
         }
