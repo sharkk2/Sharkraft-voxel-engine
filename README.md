@@ -21,6 +21,8 @@ A minecraft-like game made with a custom voxel engine and world generation
 - Bad performance optimization especially when rendering more than 4 chunks
 - Lighting issues with shadows not rendering correctly
 - Needs physics improvements
+- Doesn't use vertix buffer objects
+- Bad code structure
 
 ## 📷 Screenshots
 ![game](world.png)
