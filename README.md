@@ -1,10 +1,7 @@
 # Sharkraft
 
 A minecraft-like game made with a custom voxel engine and world generation
-
-## 📦 Libraries Used
-- **LWJGL** 
-- **GLFW**
+Made using LWJGL
   
 ## ✨ Features
 - Voxel cubes with 16x16 textures
